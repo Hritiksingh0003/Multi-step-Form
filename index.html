@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>multistep-form</title>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="step active">
+                <div class="label">
+                    <p class="step-title">Your Info</p>
+                    <p class="step-sub">Browse and upload</p>
+                </div>
+                <div class="circle"><i class="fa-solid fa-user"></i></div>
+                <div class="circle_small"></div>
+            </div>
+            <div class="step">
+                <div class="label">
+                    <p class="step-title">Select Plan</p>
+                    <p class="step-sub">Browse and upload</p>
+                </div>
+                <div class="circle"><i class="fa-solid fa-hard-drive"></i></div>
+                <div class="circle_small"></div>
+            </div>
+            <div class="step">
+                <div class="label">
+                    <p class="step-title">Add-ons</p>
+                    <p class="step-sub">Browse and upload</p>
+                </div>
+                <div class="circle"><i class="fa-solid fa-pen-nib"></i></div>
+                <div class="circle_small"></div>
+            </div>
+            <div class="step">
+                <div class="label">
+                    <p class="sub-title">Summary</p>
+                    <span class="step-sub">Browse and upload</span>
+                </div>
+                <div class="circle"><i class="fa-solid fa-envelope"></i></div>
+                <div class="circle_small"></div>
+            </div>
+        </div>
+
+        <div class="main">
+            <div class="form-content1">
+                <div class="Name-title">
+                    <h2>Personal info</h2>
+                    <p class="subtitle">Please provide your name, email, address and mobile no.</p>
+                </div>
+                <form id="infoForm">
+
+                    <div class="input-group1">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="e.g Stephen King">
+
+                    </div>
+
+                    <div class="input-group1">
+                        <label for="email">Email Address</label>
+                        <input type="text" id="email" placeholder="e.g. StephenKing@lorem.com">
+
+                    </div>
+
+                    <div class="input-group1">
+                        <label for="mobile">Phone Number</label>
+                        <input type="text" id="mobile" placeholder="e.g. +1 234567890">
+
+                    </div>
+
+                    <div class="buttons">
+                        <button type="submit" class="next">Next Step</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-content2" display="none">
+                <div class="Name-title">
+                    <h2>Select your plan</h2>
+                    <p class="subtitle">Please provide your name, email, address and mobile no.</p>
+                </div>
+                <form id="plan info">
+                    <div class="input-group2">
+                        <img src="icon1.svg" alt="illustration">
+                        <label for="arcade">Arcade</label>
+                        <p>$9/mo</p>
+                    </div>
+                    <div class="input-group2">
+                        <img src="icon2.svg" alt="illustration">
+                        <label for="advanced">Advanced</label>
+                        <p>$12/mo</p>
+                    </div>
+                    <div class="input-group2">
+                        <img src="icon3.svg" alt="illustration">
+                        <label for="pro">Pro</label>
+                        <p>$12/mo</p>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="goback">Go Back</button>
+                        <button type="submit" class="next">Next Step</button>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-content3" display="none">
+                <div class="Name-title">
+                    <h2>Pick add-ons</h2>
+                    <p class="subtitle">Add-ons help to enhance your gaming experience. </p>
+                </div>
+                <form id="services info">
+                    <div class="input-group3">
+                        <label>
+                            <input type="checkbox" name="terms" id="terms">
+                        </label>
+                        <label for="online sevice">Online service</label>
+                        <p class="subtitle3">Access to multiplayer games</p>
+                        <p>$1/mo</p>
+                    </div>
+                    <div class="input-group3">
+                        <label>
+                            <input type="checkbox" name="terms" id="terms">
+                        </label>
+                        <label for="larger storage">Larger storage</label>
+                        <p class="subtitle3">Extra 1TB cloud save</p>
+                        <p>$2/mo</p>
+                    </div>
+                    <div class="input-group3">
+                        <label>
+                            <input type="checkbox" name="terms" id="terms">
+                        </label>
+                        <label for="customizable profile">Customizable profile</label>
+                        <p class="subtitle3">Custom theme on your profile</p>
+                        <p>$2/mo</p>
+                    </div>
+                    <div class="buttons">
+                        <button type="submit" class="goback">Go Back</button>
+                        <button type="submit" class="next">Next Step</button>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="form-content4" display="none">
+                <div class="Name-title">
+                    <h2>Finishing up</h2>
+                    <p class="subtitle">Double-check everything looks OK before confirming.</p>
+                </div>
+                <form id="finish page">
+                    <div class="input-group4">
+                        <div class="previous">
+                            <label for="arcade">Arcade(Monthly)</label>
+                            <p>$9/mo</p>
+                        </div>
+                    </div>
+                    <!-- <div class="total-charges">
+                <label for="total">Total(per month)</label>
+                 <p>$9/mo</p>
+                 </div> -->
+
+
+                    <div class="buttons">
+                        <button type="submit" class="goback">Go Back</button>
+
+                        <button type="submit" class="next">Next Step</button>
+
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
