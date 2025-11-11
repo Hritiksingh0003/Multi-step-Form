@@ -3,6 +3,7 @@
 
 ###A simple and interactive Multi-Step Form built using HTML, CSS, and JavaScript.
 This project allows users to fill out a form divided into multiple steps (or pages), improving usability and user experience by collecting data in smaller, manageable sections.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 Features
@@ -18,6 +19,7 @@ This project allows users to fill out a form divided into multiple steps (or pag
 ✅ Responsive design for all screen sizes
 
 ✅ Summary / confirmation page before submission
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 #🧩 How It Works
 
@@ -33,6 +35,7 @@ Ensures required fields are filled before moving to the next step.
 
 Confirmation Page:
 Displays the user’s entered information before final submission.
+
 ------------------------------------------------------------------------------------------------------------------------
 #🧠 Learning Concepts
 
