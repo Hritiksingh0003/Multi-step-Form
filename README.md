@@ -1,8 +1,8 @@
 👇
 
-🧾 Multi-Step Form
+##🧾 Multi-Step Form
 
-A simple and interactive Multi-Step Form built using HTML, CSS, and JavaScript.
+#A simple and interactive Multi-Step Form built using HTML, CSS, and JavaScript.
 This project allows users to fill out a form divided into multiple steps (or pages), improving usability and user experience by collecting data in smaller, manageable sections.
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
