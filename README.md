@@ -1,6 +1,5 @@
 👇
-
-##🧾 Multi-Step Form
+#🧾 Multi-Step Form
 
 ###A simple and interactive Multi-Step Form built using HTML, CSS, and JavaScript.
 This project allows users to fill out a form divided into multiple steps (or pages), improving usability and user experience by collecting data in smaller, manageable sections.
@@ -20,7 +19,7 @@ This project allows users to fill out a form divided into multiple steps (or pag
 
 ✅ Summary / confirmation page before submission
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-🧩 How It Works
+#🧩 How It Works
 
 Step Navigation:
 Users can move forward or backward using the "Next" and "Previous" buttons.
@@ -35,7 +34,7 @@ Ensures required fields are filled before moving to the next step.
 Confirmation Page:
 Displays the user’s entered information before final submission.
 ------------------------------------------------------------------------------------------------------------------------
-🧠 Learning Concepts
+#🧠 Learning Concepts
 
 Through this project, you’ll learn:
 
